@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Keep your CSS variables */
+        /* Lines 74-127 */
+    }
+    .dark {
+        /* Keep your dark mode variables */
+        /* Lines 101-126 */
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
